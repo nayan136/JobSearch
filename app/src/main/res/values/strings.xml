@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">JobSearch</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_edu_qual">EduQualActivity</string>
+    <string name="title_activity_create_post">CreatePostActivity</string>
+    <string name="title_activity_my_posts">MyPostsActivity</string>
+    <string name="title_activity_create_comapny">CreateComapnyActivity</string>
+    <string name="title_activity_add_post_education">AddPostEducation</string>
+    <string name="title_activity_recommended_post">RecommendedPostActivity</string>
+    <string name="title_activity_apply_post_list">ApplyPostList</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="title_apply_post">Apply Post</string>
+    <string name="title_education">Education</string>
+    <string name="title_post">Post</string>
+    <string name="title_my_post">My Posts</string>
+    <string name="title_add_post">Add Post</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_applicant_details">ApplicantDetailsActivity</string>
+    <string name="title_profile">Profile</string>
+    <string name="action_profile">Profile</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_company_details">CompanyDetailsActivity</string>
+</resources>
