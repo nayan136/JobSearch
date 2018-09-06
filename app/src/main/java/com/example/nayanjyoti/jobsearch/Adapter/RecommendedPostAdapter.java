@@ -71,7 +71,7 @@ public class RecommendedPostAdapter extends RecyclerView.Adapter<RecommendedPost
         holder.company.setOnClickListener(v->{
             Intent i = new Intent(context, CompanyDetailsActivity.class);
             i.putExtra("from","RecommendedPostActivity");
-            i.putExtra("post_id",post.getUserId());
+            i.putExtra("post_creator_id",post.getUserId());
             context.startActivity(i);
         });
     }

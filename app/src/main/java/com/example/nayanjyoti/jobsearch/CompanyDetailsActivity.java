@@ -26,7 +26,7 @@ public class CompanyDetailsActivity extends AppCompatActivity implements TaskCom
     public static final int COMPANY_DETAILS = 1;
 
     private String from;
-    private int postId;
+    private int postCreatorId;
     
     private CompanyData company;
 
@@ -40,7 +40,7 @@ public class CompanyDetailsActivity extends AppCompatActivity implements TaskCom
         setSupportActionBar(toolbar);
 
         Intent i = getIntent();
-        postId = i.getIntExtra("post_id",0);
+        postCreatorId = i.getIntExtra("post_creator_id",0);
         from = i.getStringExtra("from");
         Log.d("my_data_activity",from);
 
@@ -55,7 +55,8 @@ public class CompanyDetailsActivity extends AppCompatActivity implements TaskCom
     }
 
     private void getData() {
-        String url = Constant.COMPANY_DETAILS+postId;
+        String url = Constant.COMPANY_DETAILS+postCreatorId;
+        Log.d("my_data_result",url);
         GetAsyncTask task = new GetAsyncTask(this,
                 COMPANY_DETAILS,
                 url);
